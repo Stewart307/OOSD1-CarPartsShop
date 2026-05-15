@@ -2,8 +2,8 @@ package Assignment;
 
 public class Tyre extends StockItem {
 
-    private String tyreSize;  // for example "205/55R16"
-    private String brand;     // for example "Michelin"
+    private String tyreSize;  
+    private String brand;     
 
     public Tyre(String stockCode, int quantity, double price,
                 String tyreSize, String brand) {
