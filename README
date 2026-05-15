@@ -1,0 +1,25 @@
+What is this project?
+This project is a Java GUI application for managing stock in car parts shop, it was built as part the project I've been given 
+
+How to set it up?
+1.Open IntelliJ IDEA 
+2.Create a new Java Project called OOSD1
+3.Create a package called Assignment inside the src folder 
+4.Copy all the .java files inti the Assignment package
+5.Run ShopGUI.java to launch the application
+
+How to use it?
+-Use the top section to create a new stock item
+-Select a type from the dropdown 
+-Fill in the stock code, quantity and price then click Create item
+-Use the Stock Actions section to add stock, sell stock, change prices or displa item info
+
+Classes in this project:
+-StockItem - the base class for all stock items
+-NavSys - a navigation system, extend StockItem
+-Tyre - a tyre extends StockItem
+-EngineOil - engine oil, extends StockItem
+-CarBatter - a car battery extends StockItem
+-ShopGUI - te main graphica user interface
+-TestNavSys - tests the NavSys class in the console
+-TestPolymorphism - demonstrate polymorphism accross all subclasses 
