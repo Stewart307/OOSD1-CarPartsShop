@@ -2,8 +2,8 @@ package Assignment;
 
 public class EngineOil extends StockItem {
 
-    private String viscosity;     // for example "5W-30"
-    private double volumeLitres;  // for example 5.0 meaning 5 litres
+    private String viscosity;     
+    private double volumeLitres;  
 
     public EngineOil(String stockCode, int quantity, double price,
                      String viscosity, double volumeLitres) {
